@@ -1,0 +1,107 @@
+markdown para github
+
+O Markdown no GitHub é uma forma prática de formatar textos em arquivos como README.md, issues e wikis. Ele usa símbolos simples do teclado para criar títulos, listas, negrito, links, imagens, tabelas e muito mais. Essa linguagem é leve, fácil de ler mesmo no modo texto puro, e muito usada por desenvolvedores para documentar projetos.
+
+Veja abaixo como ele funciona, com explicações e exemplos de comandos:
+
+Você pode criar títulos usando o símbolo #.
+Um # cria o título principal, dois ## fazem um subtítulo e assim por diante:
+
+# Título principal  
+## Subtítulo  
+### Título menor
+
+
+Resultado:
+
+Título principal
+Subtítulo
+Título menor
+
+Para deixar palavras em negrito ou itálico, use asteriscos:
+
+**texto em negrito**  
+*texto em itálico*
+
+
+Resultado:
+texto em negrito
+texto em itálico
+
+As listas com marcadores são criadas com “-” ou “*”:
+
+- Item 1  
+- Item 2  
+- Item 3
+
+
+Resultado:
+
+Item 1
+
+Item 2
+
+Item 3
+
+As listas numeradas usam números seguidos de ponto:
+
+1. Primeiro item  
+2. Segundo item  
+3. Terceiro item
+
+
+Resultado:
+
+Primeiro item
+
+Segundo item
+
+Terceiro item
+
+Você também pode adicionar links e imagens:
+
+[Visite o GitHub](https://github.com)  
+![Logo do GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+
+Resultado:
+Visite o GitHub
+
+
+
+Para mostrar códigos ou comandos, use crases:
+Uma crase para código em linha e três crases para blocos de código.
+
+`print("Olá, GitHub!")`
+
+
+Resultado: print("Olá, GitHub!")
+
+```python
+print("Exemplo de código em Python")
+
+Resultado:
+```python
+print("Exemplo de código em Python")
+
+
+Também dá para criar tabelas e checklists, recursos adicionais do GitHub Flavored Markdown:
+
+| Nome | Idade | Cidade |
+|------|--------|--------|
+| Ana  | 25     | São Paulo |
+| João | 30     | Rio de Janeiro |
+
+- [x] Tarefa concluída  
+- [ ] Tarefa pendente
+
+
+Resultado:
+
+Nome	Idade	Cidade
+Ana	25	São Paulo
+João	30	Rio de Janeiro
+
+ Tarefa concluída
+
+ Tarefa pendente
